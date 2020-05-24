@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44D3830247826B200C84F01 /* game_object_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D380D247826B000C84F01 /* game_object_manager.cpp */; };
+		A44D3831247826B200C84F01 /* moving_game_object_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D380F247826B000C84F01 /* moving_game_object_manager.cpp */; };
+		A44D3832247826B200C84F01 /* math_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D3810247826B000C84F01 /* math_util.cpp */; };
+		A44D3833247826B200C84F01 /* visible_game_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D3812247826B000C84F01 /* visible_game_object.cpp */; };
+		A44D3834247826B200C84F01 /* ski.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D3814247826B000C84F01 /* ski.cpp */; };
+		A44D3835247826B200C84F01 /* moving_game_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D3816247826B000C84F01 /* moving_game_object.cpp */; };
+		A44D3836247826B200C84F01 /* splash_screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D3817247826B000C84F01 /* splash_screen.cpp */; };
+		A44D3837247826B200C84F01 /* menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D3819247826B000C84F01 /* menu.cpp */; };
+		A44D3838247826B200C84F01 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D381A247826B000C84F01 /* game.cpp */; };
+		A44D3839247826B200C84F01 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D381D247826B000C84F01 /* error.cpp */; };
+		A44D383A247826B200C84F01 /* gate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D3821247826B100C84F01 /* gate.cpp */; };
+		A44D383B247826B200C84F01 /* race_course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D3828247826B100C84F01 /* race_course.cpp */; };
+		A44D383C247826B200C84F01 /* sprites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D382B247826B100C84F01 /* sprites.cpp */; };
+		A44D383E247826B200C84F01 /* skier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D382D247826B200C84F01 /* skier.cpp */; };
+		A44D383F247826B200C84F01 /* time_digit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A44D382E247826B200C84F01 /* time_digit.cpp */; };
+		A44D384724782B4800C84F01 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44D384124782B4800C84F01 /* sfml-network.framework */; };
+		A44D384824782B4800C84F01 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44D384224782B4800C84F01 /* sfml-window.framework */; };
+		A44D384A24782B4800C84F01 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44D384424782B4800C84F01 /* sfml-audio.framework */; };
+		A44D384B24782B4800C84F01 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44D384524782B4800C84F01 /* sfml-system.framework */; };
+		A44D384C24782B4800C84F01 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44D384624782B4800C84F01 /* sfml-graphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A44D38012478263200C84F01 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A44D38032478263200C84F01 /* SKIE_APP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SKIE_APP; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44D380D247826B000C84F01 /* game_object_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game_object_manager.cpp; sourceTree = "<group>"; };
+		A44D380E247826B000C84F01 /* error.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = error.hpp; sourceTree = "<group>"; };
+		A44D380F247826B000C84F01 /* moving_game_object_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moving_game_object_manager.cpp; sourceTree = "<group>"; };
+		A44D3810247826B000C84F01 /* math_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = math_util.cpp; sourceTree = "<group>"; };
+		A44D3811247826B000C84F01 /* gate_sprites.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gate_sprites.hpp; sourceTree = "<group>"; };
+		A44D3812247826B000C84F01 /* visible_game_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = visible_game_object.cpp; sourceTree = "<group>"; };
+		A44D3813247826B000C84F01 /* splash_screen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = splash_screen.hpp; sourceTree = "<group>"; };
+		A44D3814247826B000C84F01 /* ski.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ski.cpp; sourceTree = "<group>"; };
+		A44D3815247826B000C84F01 /* colour.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = colour.hpp; sourceTree = "<group>"; };
+		A44D3816247826B000C84F01 /* moving_game_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moving_game_object.cpp; sourceTree = "<group>"; };
+		A44D3817247826B000C84F01 /* splash_screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = splash_screen.cpp; sourceTree = "<group>"; };
+		A44D3818247826B000C84F01 /* moving_game_object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = moving_game_object.hpp; sourceTree = "<group>"; };
+		A44D3819247826B000C84F01 /* menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = menu.cpp; sourceTree = "<group>"; };
+		A44D381A247826B000C84F01 /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		A44D381B247826B000C84F01 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		A44D381C247826B000C84F01 /* time_digit_sprites.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = time_digit_sprites.hpp; sourceTree = "<group>"; };
+		A44D381D247826B000C84F01 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error.cpp; sourceTree = "<group>"; };
+		A44D381E247826B100C84F01 /* skier_sprites.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = skier_sprites.hpp; sourceTree = "<group>"; };
+		A44D381F247826B100C84F01 /* menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = menu.hpp; sourceTree = "<group>"; };
+		A44D3820247826B100C84F01 /* skier.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = skier.hpp; sourceTree = "<group>"; };
+		A44D3821247826B100C84F01 /* gate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gate.cpp; sourceTree = "<group>"; };
+		A44D3822247826B100C84F01 /* game_object_manager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = game_object_manager.hpp; sourceTree = "<group>"; };
+		A44D3823247826B100C84F01 /* time_digit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = time_digit.hpp; sourceTree = "<group>"; };
+		A44D3824247826B100C84F01 /* sprites.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sprites.hpp; sourceTree = "<group>"; };
+		A44D3825247826B100C84F01 /* race_course.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = race_course.hpp; sourceTree = "<group>"; };
+		A44D3826247826B100C84F01 /* moving_game_object_manager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = moving_game_object_manager.hpp; sourceTree = "<group>"; };
+		A44D3827247826B100C84F01 /* gate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gate.hpp; sourceTree = "<group>"; };
+		A44D3828247826B100C84F01 /* race_course.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = race_course.cpp; sourceTree = "<group>"; };
+		A44D3829247826B100C84F01 /* math_util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = math_util.hpp; sourceTree = "<group>"; };
+		A44D382A247826B100C84F01 /* game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = game.hpp; sourceTree = "<group>"; };
+		A44D382B247826B100C84F01 /* sprites.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sprites.cpp; sourceTree = "<group>"; };
+		A44D382D247826B200C84F01 /* skier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = skier.cpp; sourceTree = "<group>"; };
+		A44D382E247826B200C84F01 /* time_digit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = time_digit.cpp; sourceTree = "<group>"; };
+		A44D382F247826B200C84F01 /* visible_game_object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = visible_game_object.hpp; sourceTree = "<group>"; };
+		A44D384124782B4800C84F01 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		A44D384224782B4800C84F01 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		A44D384424782B4800C84F01 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		A44D384524782B4800C84F01 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		A44D384624782B4800C84F01 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A44D38002478263200C84F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44D384724782B4800C84F01 /* sfml-network.framework in Frameworks */,
+				A44D384824782B4800C84F01 /* sfml-window.framework in Frameworks */,
+				A44D384A24782B4800C84F01 /* sfml-audio.framework in Frameworks */,
+				A44D384B24782B4800C84F01 /* sfml-system.framework in Frameworks */,
+				A44D384C24782B4800C84F01 /* sfml-graphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44D37FA2478263200C84F01 = {
+			isa = PBXGroup;
+			children = (
+				A44D38052478263200C84F01 /* SKIE_APP */,
+				A44D38042478263200C84F01 /* Products */,
+				A44D384024782B4800C84F01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A44D38042478263200C84F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44D38032478263200C84F01 /* SKIE_APP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44D38052478263200C84F01 /* SKIE_APP */ = {
+			isa = PBXGroup;
+			children = (
+				A44D3815247826B000C84F01 /* colour.hpp */,
+				A44D381D247826B000C84F01 /* error.cpp */,
+				A44D380E247826B000C84F01 /* error.hpp */,
+				A44D380D247826B000C84F01 /* game_object_manager.cpp */,
+				A44D3822247826B100C84F01 /* game_object_manager.hpp */,
+				A44D381A247826B000C84F01 /* game.cpp */,
+				A44D382A247826B100C84F01 /* game.hpp */,
+				A44D3811247826B000C84F01 /* gate_sprites.hpp */,
+				A44D3821247826B100C84F01 /* gate.cpp */,
+				A44D3827247826B100C84F01 /* gate.hpp */,
+				A44D381B247826B000C84F01 /* images */,
+				A44D3810247826B000C84F01 /* math_util.cpp */,
+				A44D3829247826B100C84F01 /* math_util.hpp */,
+				A44D3819247826B000C84F01 /* menu.cpp */,
+				A44D381F247826B100C84F01 /* menu.hpp */,
+				A44D380F247826B000C84F01 /* moving_game_object_manager.cpp */,
+				A44D3826247826B100C84F01 /* moving_game_object_manager.hpp */,
+				A44D3816247826B000C84F01 /* moving_game_object.cpp */,
+				A44D3818247826B000C84F01 /* moving_game_object.hpp */,
+				A44D3828247826B100C84F01 /* race_course.cpp */,
+				A44D3825247826B100C84F01 /* race_course.hpp */,
+				A44D3814247826B000C84F01 /* ski.cpp */,
+				A44D381E247826B100C84F01 /* skier_sprites.hpp */,
+				A44D382D247826B200C84F01 /* skier.cpp */,
+				A44D3820247826B100C84F01 /* skier.hpp */,
+				A44D3817247826B000C84F01 /* splash_screen.cpp */,
+				A44D3813247826B000C84F01 /* splash_screen.hpp */,
+				A44D382B247826B100C84F01 /* sprites.cpp */,
+				A44D3824247826B100C84F01 /* sprites.hpp */,
+				A44D381C247826B000C84F01 /* time_digit_sprites.hpp */,
+				A44D382E247826B200C84F01 /* time_digit.cpp */,
+				A44D3823247826B100C84F01 /* time_digit.hpp */,
+				A44D3812247826B000C84F01 /* visible_game_object.cpp */,
+				A44D382F247826B200C84F01 /* visible_game_object.hpp */,
+			);
+			path = SKIE_APP;
+			sourceTree = "<group>";
+		};
+		A44D384024782B4800C84F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A44D384424782B4800C84F01 /* sfml-audio.framework */,
+				A44D384624782B4800C84F01 /* sfml-graphics.framework */,
+				A44D384124782B4800C84F01 /* sfml-network.framework */,
+				A44D384524782B4800C84F01 /* sfml-system.framework */,
+				A44D384224782B4800C84F01 /* sfml-window.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44D38022478263200C84F01 /* SKIE_APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44D380A2478263200C84F01 /* Build configuration list for PBXNativeTarget "SKIE_APP" */;
+			buildPhases = (
+				A44D37FF2478263200C84F01 /* Sources */,
+				A44D38002478263200C84F01 /* Frameworks */,
+				A44D38012478263200C84F01 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKIE_APP;
+			productName = SKIE_APP;
+			productReference = A44D38032478263200C84F01 /* SKIE_APP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44D37FB2478263200C84F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = KoryshMan;
+				TargetAttributes = {
+					A44D38022478263200C84F01 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A44D37FE2478263200C84F01 /* Build configuration list for PBXProject "SKIE_APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A44D37FA2478263200C84F01;
+			productRefGroup = A44D38042478263200C84F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44D38022478263200C84F01 /* SKIE_APP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44D37FF2478263200C84F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44D3831247826B200C84F01 /* moving_game_object_manager.cpp in Sources */,
+				A44D3834247826B200C84F01 /* ski.cpp in Sources */,
+				A44D3838247826B200C84F01 /* game.cpp in Sources */,
+				A44D383A247826B200C84F01 /* gate.cpp in Sources */,
+				A44D383E247826B200C84F01 /* skier.cpp in Sources */,
+				A44D3836247826B200C84F01 /* splash_screen.cpp in Sources */,
+				A44D3839247826B200C84F01 /* error.cpp in Sources */,
+				A44D3833247826B200C84F01 /* visible_game_object.cpp in Sources */,
+				A44D383B247826B200C84F01 /* race_course.cpp in Sources */,
+				A44D3832247826B200C84F01 /* math_util.cpp in Sources */,
+				A44D3835247826B200C84F01 /* moving_game_object.cpp in Sources */,
+				A44D3837247826B200C84F01 /* menu.cpp in Sources */,
+				A44D383C247826B200C84F01 /* sprites.cpp in Sources */,
+				A44D383F247826B200C84F01 /* time_digit.cpp in Sources */,
+				A44D3830247826B200C84F01 /* game_object_manager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A44D38082478263200C84F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A44D38092478263200C84F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A44D380B2478263200C84F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A44D380C2478263200C84F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A44D37FE2478263200C84F01 /* Build configuration list for PBXProject "SKIE_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44D38082478263200C84F01 /* Debug */,
+				A44D38092478263200C84F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44D380A2478263200C84F01 /* Build configuration list for PBXNativeTarget "SKIE_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44D380B2478263200C84F01 /* Debug */,
+				A44D380C2478263200C84F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A44D37FB2478263200C84F01 /* Project object */;
+}
